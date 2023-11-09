@@ -30,6 +30,12 @@ final class MainViewController: UIViewController {
         setupViews()
         setupLayouts()
         
+        if Resourses.Fonts.pilatExtendedFontBlack != nil {
+            print("Шрифт успешно загружен!")
+        } else {
+            print("Ошибка при загрузке шрифта.")
+        }
+        
     }
     
     //MARK: - setupViews
@@ -38,7 +44,7 @@ final class MainViewController: UIViewController {
         
         headerOfTableLabel.translatesAutoresizingMaskIntoConstraints = false
         headerOfTableLabel.text = "ALL EVENTS"
-        headerOfTableLabel.font = .boldSystemFont(ofSize: 24)
+        headerOfTableLabel.font = UIFont(name: "PilatExtended-Light", size: 22)
         headerOfTableLabel.textColor = .white
         headerOfTableLabel.textAlignment = .left
         

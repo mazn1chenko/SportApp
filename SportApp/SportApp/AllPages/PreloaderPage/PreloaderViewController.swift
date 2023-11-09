@@ -20,6 +20,8 @@ final class PreloaderViewController: UIViewController {
         setupLayouts()
     }
     
+    //MARK: - setupViews
+    
     private func setupViews() {
         
         activityIndicator.center = view.center
@@ -27,6 +29,8 @@ final class PreloaderViewController: UIViewController {
         
     }
     
+    //MARK: - setupLayouts
+
     private func setupLayouts() {
         view.addSubview(activityIndicator)
         
