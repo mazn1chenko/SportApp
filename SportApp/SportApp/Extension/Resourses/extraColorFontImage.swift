@@ -22,12 +22,26 @@ enum Resourses {
         static var dateColorEventCell = UIColor(red: 152/255, green: 152/255, blue: 152/255, alpha: 1)
         static var backgroundColorOfScoreLabelInCellEventdetailPage = UIColor(red: 255/255, green: 75/255, blue: 0/255, alpha: 0.2)
         static var totalScoreButtonTitleColor = UIColor(red: 255/255, green: 75/255, blue: 0/255, alpha: 1)
+        
+        static var dateOfMatch = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 0.5)
+        
+        static var borderOfCellOnEventDetail = UIColor(red: 79/255, green: 79/255, blue: 79/255, alpha: 1)
     }
     
     enum Fonts {
         
-        static var pilatExtendedFontBlack = UIFont(name: "PilatExtended-Heavy", size: 44)
+        static var pilatExtendedBlack = UIFont(name: "PilatExtended-Heavy", size: 16)
         
+        static var SFProDisplaySemiboldItalicForNameOfTeamOnMainPage = UIFont(name: "SFProDisplay-SemiboldItalic", size: 14)
+        static var SFProDisplaySemiboldItalicForfootballDevisionOnMainPage = UIFont(name: "SFProDisplay-SemiboldItalic", size: 10)
+    }
+    
+    enum Image {
+        
+        static var imageOfTeam = UIImage(named: "Ellipse 1")
+        
+        static var ball1 = UIImage(named: "ball1")
+        static var ball2 = UIImage(named: "ball2")
         
     }
     

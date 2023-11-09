@@ -9,7 +9,7 @@ import Foundation
 
 struct MockStructForStatistic {
     
-    let firstItem: Int
-    let secondItem: Int
+    let firstItem: String
+    let secondItem: String
     
 }

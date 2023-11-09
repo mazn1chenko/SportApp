@@ -71,7 +71,7 @@ final class EventDetailViewController: UIViewController {
         
         customTitle.translatesAutoresizingMaskIntoConstraints = false
         customTitle.text = "Detail Event"
-        customTitle.font = Resourses.Fonts.pilatExtendedFontBlack
+        customTitle.font = Resourses.Fonts.pilatExtendedBlack
         customTitle.textAlignment = .center
         customTitle.textColor = .white
         
@@ -86,11 +86,11 @@ final class EventDetailViewController: UIViewController {
         topView.backgroundColor = Resourses.Colors.backgroundColorOfCollectionViewCell
         topView.layer.zPosition = 0
         
-        firstDecorationBall.image = UIImage(named: "ball1")
+        firstDecorationBall.image = Resourses.Image.ball1
         firstDecorationBall.translatesAutoresizingMaskIntoConstraints = false
         firstDecorationBall.contentMode = .scaleAspectFill
         
-        secondDecorationBall.image = UIImage(named: "ball2")
+        secondDecorationBall.image = Resourses.Image.ball2
         secondDecorationBall.translatesAutoresizingMaskIntoConstraints = false
         secondDecorationBall.contentMode = .scaleAspectFill
         secondDecorationBall.layer.zPosition = 1
@@ -100,23 +100,31 @@ final class EventDetailViewController: UIViewController {
         mainStackView.axis = .horizontal
         mainStackView.alignment = .center
         mainStackView.distribution = .fillEqually
-        mainStackView.spacing = 0
+        mainStackView.spacing = 20
 
         
         timeOfMatchOrScoreInLiveLabel.text = "1 : 2"
         timeOfMatchOrScoreInLiveLabel.textColor = .white
-        timeOfMatchOrScoreInLiveLabel.font = .boldSystemFont(ofSize: 24)
+        timeOfMatchOrScoreInLiveLabel.font = Resourses.Fonts.pilatExtendedBlack
         timeOfMatchOrScoreInLiveLabel.textAlignment = .center
         
         
         footballDevisionLabel.translatesAutoresizingMaskIntoConstraints = false
         footballDevisionLabel.text = "Premier League"
-        footballDevisionLabel.textColor = .white
+        footballDevisionLabel.textColor = Resourses.Colors.totalScoreButtonTitleColor
         footballDevisionLabel.font = .systemFont(ofSize: 14)
         
         dateOfMatchLabel.translatesAutoresizingMaskIntoConstraints = false
-        dateOfMatchLabel.text = "8 july, 18:00"
-        dateOfMatchLabel.textColor = .white
+        let dateOfMatch = "8 july,"
+        let timeOfMatch = " 18:00"
+
+        let attributedText = NSMutableAttributedString(string: dateOfMatch + timeOfMatch)
+
+        attributedText.addAttribute(.foregroundColor, value: Resourses.Colors.dateOfMatch, range: NSRange(location: 0, length: dateOfMatch.count))
+
+        attributedText.addAttribute(.foregroundColor, value: UIColor.white, range: NSRange(location: dateOfMatch.count, length: timeOfMatch.count))
+
+        dateOfMatchLabel.attributedText = attributedText
         dateOfMatchLabel.font = .systemFont(ofSize: 14)
         
         //MARK: firstTeamStackView setup
@@ -125,12 +133,12 @@ final class EventDetailViewController: UIViewController {
         firstTeamStackView.distribution = .fillProportionally
         firstTeamStackView.spacing = 5
         
-        nameOfFirstTeamLabel.text = "Royal Phoenix FC"
+        nameOfFirstTeamLabel.text = "Royal \nPhoenix FC"
         nameOfFirstTeamLabel.numberOfLines = 2
         nameOfFirstTeamLabel.textAlignment = .center
-        nameOfFirstTeamLabel.font = .boldSystemFont(ofSize: 12)
+        nameOfFirstTeamLabel.font = Resourses.Fonts.SFProDisplaySemiboldItalicForNameOfTeamOnMainPage
 
-        iconOfFirstTeamImage.image = UIImage(named: "image")
+        iconOfFirstTeamImage.image = Resourses.Image.imageOfTeam
         iconOfFirstTeamImage.contentMode = .scaleAspectFit
 
         
@@ -140,11 +148,12 @@ final class EventDetailViewController: UIViewController {
         secondTeamStackView.distribution = .fillProportionally
         secondTeamStackView.spacing = 5
         
-        nameOfSecondTeamLabel.text = "Royal Phoenix FC"
+        nameOfSecondTeamLabel.text = "Royal \nPhoenix FC"
+        nameOfSecondTeamLabel.numberOfLines = 2
         nameOfSecondTeamLabel.textAlignment = .center
-        nameOfSecondTeamLabel.font = .boldSystemFont(ofSize: 12)
+        nameOfSecondTeamLabel.font = Resourses.Fonts.SFProDisplaySemiboldItalicForNameOfTeamOnMainPage
         
-        iconOfSecondTeamImage.image = UIImage(named: "image")
+        iconOfSecondTeamImage.image = Resourses.Image.imageOfTeam
         iconOfSecondTeamImage.contentMode = .scaleAspectFit
 
         //MARK: H2HButton and statisticButton setup
@@ -184,6 +193,8 @@ final class EventDetailViewController: UIViewController {
         statisticTableView.delegate = self
         statisticTableView.dataSource = self
         statisticTableView.isHidden = true
+        statisticTableView.separatorStyle = .none
+        statisticTableView.isScrollEnabled = false
         statisticTableView.backgroundColor = Resourses.Colors.backgroundColorOfCollectionAndTableEventDetailPage
         statisticTableView.register(StatisticTableViewCell.self, forCellReuseIdentifier: StatisticTableViewCell.cellId)
         
@@ -240,7 +251,7 @@ final class EventDetailViewController: UIViewController {
             mainStackView.centerXAnchor.constraint(equalTo: topView.centerXAnchor),
             mainStackView.bottomAnchor.constraint(equalTo: dateOfMatchLabel.topAnchor, constant: -5),
         
-            footballDevisionLabel.bottomAnchor.constraint(equalTo: mainStackView.topAnchor, constant: -5),
+            footballDevisionLabel.bottomAnchor.constraint(equalTo: mainStackView.topAnchor, constant: -10),
             footballDevisionLabel.centerXAnchor.constraint(equalTo: topView.centerXAnchor),
             
             dateOfMatchLabel.bottomAnchor.constraint(equalTo: topView.bottomAnchor, constant: -constantLineIndents),
@@ -269,12 +280,12 @@ final class EventDetailViewController: UIViewController {
             H2HCollectionView.topAnchor.constraint(equalTo: H2HButton.bottomAnchor, constant: constantLineIndents),
             H2HCollectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             H2HCollectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            H2HCollectionView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.45),
+            H2HCollectionView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.5),
 
             statisticTableView.topAnchor.constraint(equalTo: H2HButton.bottomAnchor, constant: constantLineIndents),
             statisticTableView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             statisticTableView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            statisticTableView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.45),
+            statisticTableView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.5),
 
 
         ])
@@ -321,7 +332,7 @@ final class EventDetailViewController: UIViewController {
 extension EventDetailViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
 
-        return CGSize(width: view.frame.width - 2*15, height: collectionView.frame.height / 4.6)
+        return CGSize(width: view.frame.width - 2*15, height: collectionView.frame.height / 5.75)
     }
 }
 
@@ -331,7 +342,7 @@ extension EventDetailViewController: UICollectionViewDelegateFlowLayout {
 extension EventDetailViewController: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 6
+        return 5
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -380,6 +391,8 @@ extension EventDetailViewController: UITableViewDataSource {
         
         cell?.configureCell(modelOfStatistic: mockArrayOfStatisticModel[indexPath.row], typeOfCell: mockTypeOfCell[indexPath.row])
         
+        cell?.selectionStyle = .none
+        
         return cell!
         
         
@@ -390,15 +403,15 @@ extension EventDetailViewController: UITableViewDataSource {
 //MARK: mock data
 let mockArrayOfStatisticModel: [MockStructForStatistic] = {
     
-    let ballProfessionalTeam = MockStructForStatistic(firstItem: 55, secondItem: 45)
-    let goalAttempsTeam = MockStructForStatistic(firstItem: 4, secondItem: 6)
-    let shotsOnGoalTeam = MockStructForStatistic(firstItem: 2, secondItem: 3)
-    let shotsOfGoalTeam = MockStructForStatistic(firstItem: 3, secondItem: 2)
-    let freeKicksTeam = MockStructForStatistic(firstItem: 0, secondItem: 0)
-    let offSideTeam = MockStructForStatistic(firstItem: 1, secondItem: 0)
-    let yellowCardTeam = MockStructForStatistic(firstItem: 1, secondItem: 0)
-    let redCardTeam = MockStructForStatistic(firstItem: 2, secondItem: 1)
-    let crossesTeam = MockStructForStatistic(firstItem: 1, secondItem: 4)
+    let ballProfessionalTeam = MockStructForStatistic(firstItem: "55%", secondItem: "45%")
+    let goalAttempsTeam = MockStructForStatistic(firstItem: "4", secondItem: "6")
+    let shotsOnGoalTeam = MockStructForStatistic(firstItem: "2", secondItem: "3")
+    let shotsOfGoalTeam = MockStructForStatistic(firstItem: "3", secondItem: "2")
+    let freeKicksTeam = MockStructForStatistic(firstItem: "0", secondItem: "0")
+    let offSideTeam = MockStructForStatistic(firstItem: "1", secondItem: "0")
+    let yellowCardTeam = MockStructForStatistic(firstItem: "1", secondItem: "0")
+    let redCardTeam = MockStructForStatistic(firstItem: "2", secondItem: "1")
+    let crossesTeam = MockStructForStatistic(firstItem: "1", secondItem: "4")
     
     return [ballProfessionalTeam, goalAttempsTeam, shotsOnGoalTeam, shotsOfGoalTeam, freeKicksTeam, offSideTeam, yellowCardTeam, redCardTeam, crossesTeam]
 }()

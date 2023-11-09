@@ -16,44 +16,115 @@
 		71B487BE2AFC0F520057480D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B487BD2AFC0F520057480D /* MainViewController.swift */; };
 		71B487C32AFC0F560057480D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B487C22AFC0F560057480D /* Assets.xcassets */; };
 		71B487C62AFC0F560057480D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B487C42AFC0F560057480D /* LaunchScreen.storyboard */; };
-		71B487D12AFC12680057480D /* extraColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B487D02AFC12680057480D /* extraColor.swift */; };
+		71B487D12AFC12680057480D /* extraColorFontImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B487D02AFC12680057480D /* extraColorFontImage.swift */; };
 		71B487D52AFC15BD0057480D /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B487D42AFC15BD0057480D /* MainCollectionViewCell.swift */; };
 		71B487D82AFC2F070057480D /* PreloaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B487D72AFC2F060057480D /* PreloaderViewController.swift */; };
 		71B487DC2AFC315A0057480D /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B487DB2AFC315A0057480D /* EventDetailViewController.swift */; };
-		71C681192AFD561B00E42B54 /* PilatExtended-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C680F72AFD561B00E42B54 /* PilatExtended-Heavy.ttf */; };
-		71C6811A2AFD561B00E42B54 /* PilatExtended-DemiBold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C680F82AFD561B00E42B54 /* PilatExtended-DemiBold.woff2 */; };
-		71C6811B2AFD561B00E42B54 /* PilatExtended-Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C680F92AFD561B00E42B54 /* PilatExtended-Light.woff */; };
-		71C6811C2AFD561B00E42B54 /* PilatExtended-Heavy.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C680FA2AFD561B00E42B54 /* PilatExtended-Heavy.woff2 */; };
-		71C6811D2AFD561B00E42B54 /* PilatExtended-Light.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C680FB2AFD561B00E42B54 /* PilatExtended-Light.eot */; };
-		71C6811E2AFD561B00E42B54 /* PilatExtended-Heavy.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C680FC2AFD561B00E42B54 /* PilatExtended-Heavy.woff */; };
-		71C6811F2AFD561B00E42B54 /* PilatExtended-Book.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C680FD2AFD561B00E42B54 /* PilatExtended-Book.woff2 */; };
-		71C681202AFD561C00E42B54 /* PilatExtended-Heavy.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C680FE2AFD561B00E42B54 /* PilatExtended-Heavy.eot */; };
-		71C681212AFD561C00E42B54 /* PilatExtended-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C680FF2AFD561B00E42B54 /* PilatExtended-Bold.woff2 */; };
-		71C681222AFD561C00E42B54 /* PilatExtended-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C681002AFD561B00E42B54 /* PilatExtended-Regular.woff2 */; };
-		71C681232AFD561C00E42B54 /* PilatExtended-Thin.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C681012AFD561B00E42B54 /* PilatExtended-Thin.woff */; };
-		71C681242AFD561C00E42B54 /* PilatExtended-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C681022AFD561B00E42B54 /* PilatExtended-Light.ttf */; };
-		71C681252AFD561C00E42B54 /* PilatExtended-Thin.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C681032AFD561B00E42B54 /* PilatExtended-Thin.woff2 */; };
-		71C681262AFD561C00E42B54 /* PilatExtended-Book.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C681042AFD561B00E42B54 /* PilatExtended-Book.woff */; };
-		71C681272AFD561C00E42B54 /* PilatExtended-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C681052AFD561B00E42B54 /* PilatExtended-Black.ttf */; };
-		71C681282AFD561C00E42B54 /* PilatExtended-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C681062AFD561B00E42B54 /* PilatExtended-Book.ttf */; };
-		71C681292AFD561C00E42B54 /* PilatExtended-DemiBold.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C681072AFD561B00E42B54 /* PilatExtended-DemiBold.eot */; };
-		71C6812A2AFD561C00E42B54 /* PilatExtended-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C681082AFD561B00E42B54 /* PilatExtended-Regular.ttf */; };
-		71C6812B2AFD561C00E42B54 /* PilatExtended-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C681092AFD561B00E42B54 /* PilatExtended-Regular.woff */; };
-		71C6812C2AFD561C00E42B54 /* stylesheet.css in Resources */ = {isa = PBXBuildFile; fileRef = 71C6810A2AFD561B00E42B54 /* stylesheet.css */; };
-		71C6812D2AFD561C00E42B54 /* PilatExtended-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C6810B2AFD561B00E42B54 /* PilatExtended-Bold.ttf */; };
-		71C6812E2AFD561C00E42B54 /* PilatExtended-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C6810C2AFD561B00E42B54 /* PilatExtended-Thin.ttf */; };
-		71C6812F2AFD561C00E42B54 /* PilatExtended-Light.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C6810D2AFD561B00E42B54 /* PilatExtended-Light.woff2 */; };
-		71C681302AFD561C00E42B54 /* PilatExtended-Black.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C6810E2AFD561B00E42B54 /* PilatExtended-Black.woff */; };
-		71C681312AFD561C00E42B54 /* PilatExtended-Book.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C6810F2AFD561B00E42B54 /* PilatExtended-Book.eot */; };
-		71C681322AFD561C00E42B54 /* PilatExtended-DemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C681102AFD561B00E42B54 /* PilatExtended-DemiBold.ttf */; };
-		71C681332AFD561C00E42B54 /* PilatExtended-Black.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C681112AFD561B00E42B54 /* PilatExtended-Black.eot */; };
-		71C681342AFD561C00E42B54 /* PilatExtended-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C681122AFD561B00E42B54 /* PilatExtended-Bold.woff */; };
-		71C681352AFD561C00E42B54 /* demo.html in Resources */ = {isa = PBXBuildFile; fileRef = 71C681132AFD561B00E42B54 /* demo.html */; };
-		71C681362AFD561C00E42B54 /* PilatExtended-Bold.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C681142AFD561B00E42B54 /* PilatExtended-Bold.eot */; };
-		71C681372AFD561C00E42B54 /* PilatExtended-Regular.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C681152AFD561B00E42B54 /* PilatExtended-Regular.eot */; };
-		71C681382AFD561C00E42B54 /* PilatExtended-Thin.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C681162AFD561B00E42B54 /* PilatExtended-Thin.eot */; };
-		71C681392AFD561C00E42B54 /* PilatExtended-DemiBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C681172AFD561B00E42B54 /* PilatExtended-DemiBold.woff */; };
-		71C6813A2AFD561C00E42B54 /* PilatExtended-Black.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C681182AFD561B00E42B54 /* PilatExtended-Black.woff2 */; };
+		71C681CB2AFD5B1A00E42B54 /* PilatExtended-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C681A92AFD5B1A00E42B54 /* PilatExtended-Heavy.ttf */; };
+		71C681CC2AFD5B1A00E42B54 /* PilatExtended-DemiBold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C681AA2AFD5B1A00E42B54 /* PilatExtended-DemiBold.woff2 */; };
+		71C681CD2AFD5B1A00E42B54 /* PilatExtended-Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C681AB2AFD5B1A00E42B54 /* PilatExtended-Light.woff */; };
+		71C681CE2AFD5B1A00E42B54 /* PilatExtended-Heavy.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C681AC2AFD5B1A00E42B54 /* PilatExtended-Heavy.woff2 */; };
+		71C681CF2AFD5B1A00E42B54 /* PilatExtended-Light.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C681AD2AFD5B1A00E42B54 /* PilatExtended-Light.eot */; };
+		71C681D02AFD5B1A00E42B54 /* PilatExtended-Heavy.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C681AE2AFD5B1A00E42B54 /* PilatExtended-Heavy.woff */; };
+		71C681D12AFD5B1A00E42B54 /* PilatExtended-Book.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C681AF2AFD5B1A00E42B54 /* PilatExtended-Book.woff2 */; };
+		71C681D22AFD5B1A00E42B54 /* PilatExtended-Heavy.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C681B02AFD5B1A00E42B54 /* PilatExtended-Heavy.eot */; };
+		71C681D32AFD5B1A00E42B54 /* PilatExtended-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C681B12AFD5B1A00E42B54 /* PilatExtended-Bold.woff2 */; };
+		71C681D42AFD5B1A00E42B54 /* PilatExtended-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C681B22AFD5B1A00E42B54 /* PilatExtended-Regular.woff2 */; };
+		71C681D52AFD5B1A00E42B54 /* PilatExtended-Thin.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C681B32AFD5B1A00E42B54 /* PilatExtended-Thin.woff */; };
+		71C681D62AFD5B1A00E42B54 /* PilatExtended-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C681B42AFD5B1A00E42B54 /* PilatExtended-Light.ttf */; };
+		71C681D72AFD5B1A00E42B54 /* PilatExtended-Thin.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C681B52AFD5B1A00E42B54 /* PilatExtended-Thin.woff2 */; };
+		71C681D82AFD5B1A00E42B54 /* PilatExtended-Book.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C681B62AFD5B1A00E42B54 /* PilatExtended-Book.woff */; };
+		71C681D92AFD5B1A00E42B54 /* PilatExtended-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C681B72AFD5B1A00E42B54 /* PilatExtended-Black.ttf */; };
+		71C681DA2AFD5B1A00E42B54 /* PilatExtended-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C681B82AFD5B1A00E42B54 /* PilatExtended-Book.ttf */; };
+		71C681DB2AFD5B1A00E42B54 /* PilatExtended-DemiBold.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C681B92AFD5B1A00E42B54 /* PilatExtended-DemiBold.eot */; };
+		71C681DC2AFD5B1A00E42B54 /* PilatExtended-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C681BA2AFD5B1A00E42B54 /* PilatExtended-Regular.ttf */; };
+		71C681DD2AFD5B1A00E42B54 /* PilatExtended-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C681BB2AFD5B1A00E42B54 /* PilatExtended-Regular.woff */; };
+		71C681DF2AFD5B1A00E42B54 /* PilatExtended-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C681BD2AFD5B1A00E42B54 /* PilatExtended-Bold.ttf */; };
+		71C681E02AFD5B1A00E42B54 /* PilatExtended-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C681BE2AFD5B1A00E42B54 /* PilatExtended-Thin.ttf */; };
+		71C681E12AFD5B1A00E42B54 /* PilatExtended-Light.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C681BF2AFD5B1A00E42B54 /* PilatExtended-Light.woff2 */; };
+		71C681E22AFD5B1A00E42B54 /* PilatExtended-Black.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C681C02AFD5B1A00E42B54 /* PilatExtended-Black.woff */; };
+		71C681E32AFD5B1A00E42B54 /* PilatExtended-Book.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C681C12AFD5B1A00E42B54 /* PilatExtended-Book.eot */; };
+		71C681E42AFD5B1A00E42B54 /* PilatExtended-DemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C681C22AFD5B1A00E42B54 /* PilatExtended-DemiBold.ttf */; };
+		71C681E52AFD5B1A00E42B54 /* PilatExtended-Black.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C681C32AFD5B1A00E42B54 /* PilatExtended-Black.eot */; };
+		71C681E62AFD5B1A00E42B54 /* PilatExtended-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C681C42AFD5B1A00E42B54 /* PilatExtended-Bold.woff */; };
+		71C681E82AFD5B1A00E42B54 /* PilatExtended-Bold.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C681C62AFD5B1A00E42B54 /* PilatExtended-Bold.eot */; };
+		71C681E92AFD5B1A00E42B54 /* PilatExtended-Regular.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C681C72AFD5B1A00E42B54 /* PilatExtended-Regular.eot */; };
+		71C681EA2AFD5B1A00E42B54 /* PilatExtended-Thin.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C681C82AFD5B1A00E42B54 /* PilatExtended-Thin.eot */; };
+		71C681EB2AFD5B1A00E42B54 /* PilatExtended-DemiBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C681C92AFD5B1A00E42B54 /* PilatExtended-DemiBold.woff */; };
+		71C681EC2AFD5B1A00E42B54 /* PilatExtended-Black.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C681CA2AFD5B1A00E42B54 /* PilatExtended-Black.woff2 */; };
+		71C682382AFD5CCE00E42B54 /* SFProDisplay-Ultralight.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C681EE2AFD5CCD00E42B54 /* SFProDisplay-Ultralight.woff2 */; };
+		71C682392AFD5CCE00E42B54 /* SFProDisplay-BlackItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C681EF2AFD5CCD00E42B54 /* SFProDisplay-BlackItalic.woff */; };
+		71C6823A2AFD5CCE00E42B54 /* SFProDisplay-BoldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C681F02AFD5CCD00E42B54 /* SFProDisplay-BoldItalic.woff2 */; };
+		71C6823B2AFD5CCE00E42B54 /* SFProDisplay-SemiboldItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C681F12AFD5CCD00E42B54 /* SFProDisplay-SemiboldItalic.eot */; };
+		71C6823C2AFD5CCE00E42B54 /* SFProDisplay-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C681F22AFD5CCD00E42B54 /* SFProDisplay-Bold.woff2 */; };
+		71C6823D2AFD5CCE00E42B54 /* SFProDisplay-Medium.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C681F32AFD5CCD00E42B54 /* SFProDisplay-Medium.woff2 */; };
+		71C6823E2AFD5CCE00E42B54 /* SFProDisplay-UltralightItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C681F42AFD5CCD00E42B54 /* SFProDisplay-UltralightItalic.woff2 */; };
+		71C6823F2AFD5CCE00E42B54 /* SFProDisplay-Medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C681F52AFD5CCD00E42B54 /* SFProDisplay-Medium.woff */; };
+		71C682402AFD5CCE00E42B54 /* SFProDisplay-Medium.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C681F62AFD5CCD00E42B54 /* SFProDisplay-Medium.eot */; };
+		71C682412AFD5CCE00E42B54 /* SFProDisplay-Black.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C681F72AFD5CCD00E42B54 /* SFProDisplay-Black.eot */; };
+		71C682422AFD5CCE00E42B54 /* SFProDisplay-UltralightItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C681F82AFD5CCD00E42B54 /* SFProDisplay-UltralightItalic.woff */; };
+		71C682432AFD5CCE00E42B54 /* SFProDisplay-Ultralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C681F92AFD5CCD00E42B54 /* SFProDisplay-Ultralight.ttf */; };
+		71C682442AFD5CCE00E42B54 /* SFProDisplay-LightItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C681FA2AFD5CCD00E42B54 /* SFProDisplay-LightItalic.woff2 */; };
+		71C682452AFD5CCE00E42B54 /* SFProDisplay-BoldItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C681FB2AFD5CCD00E42B54 /* SFProDisplay-BoldItalic.eot */; };
+		71C682462AFD5CCE00E42B54 /* SFProDisplay-ThinItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C681FC2AFD5CCD00E42B54 /* SFProDisplay-ThinItalic.eot */; };
+		71C682472AFD5CCE00E42B54 /* SFProDisplay-SemiboldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C681FD2AFD5CCD00E42B54 /* SFProDisplay-SemiboldItalic.woff2 */; };
+		71C682482AFD5CCE00E42B54 /* SFProDisplay-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C681FE2AFD5CCD00E42B54 /* SFProDisplay-RegularItalic.ttf */; };
+		71C682492AFD5CCE00E42B54 /* SFProDisplay-Heavy.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C681FF2AFD5CCD00E42B54 /* SFProDisplay-Heavy.woff2 */; };
+		71C6824A2AFD5CCE00E42B54 /* SFProDisplay-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C682002AFD5CCD00E42B54 /* SFProDisplay-Regular.woff */; };
+		71C6824B2AFD5CCE00E42B54 /* SFProDisplay-Thin.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C682012AFD5CCD00E42B54 /* SFProDisplay-Thin.woff2 */; };
+		71C6824C2AFD5CCE00E42B54 /* SFProDisplay-ThinItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C682022AFD5CCD00E42B54 /* SFProDisplay-ThinItalic.woff2 */; };
+		71C6824D2AFD5CCE00E42B54 /* SFProDisplay-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C682032AFD5CCD00E42B54 /* SFProDisplay-Bold.woff */; };
+		71C6824E2AFD5CCE00E42B54 /* SFProDisplay-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C682042AFD5CCD00E42B54 /* SFProDisplay-SemiboldItalic.ttf */; };
+		71C6824F2AFD5CCE00E42B54 /* SFProDisplay-RegularItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C682052AFD5CCD00E42B54 /* SFProDisplay-RegularItalic.woff2 */; };
+		71C682502AFD5CCE00E42B54 /* SFProDisplay-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C682062AFD5CCD00E42B54 /* SFProDisplay-Regular.woff2 */; };
+		71C682512AFD5CCE00E42B54 /* SFProDisplay-Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C682072AFD5CCD00E42B54 /* SFProDisplay-Light.woff */; };
+		71C682522AFD5CCE00E42B54 /* SFProDisplay-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C682082AFD5CCD00E42B54 /* SFProDisplay-BoldItalic.ttf */; };
+		71C682532AFD5CCE00E42B54 /* SFProDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C682092AFD5CCD00E42B54 /* SFProDisplay-Medium.ttf */; };
+		71C682542AFD5CCE00E42B54 /* SFProDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C6820A2AFD5CCD00E42B54 /* SFProDisplay-Black.ttf */; };
+		71C682552AFD5CCE00E42B54 /* SFProDisplay-Ultralight.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C6820B2AFD5CCD00E42B54 /* SFProDisplay-Ultralight.eot */; };
+		71C682562AFD5CCE00E42B54 /* SFProDisplay-Semibold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C6820C2AFD5CCD00E42B54 /* SFProDisplay-Semibold.woff */; };
+		71C682572AFD5CCE00E42B54 /* SFProDisplay-MediumItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C6820D2AFD5CCD00E42B54 /* SFProDisplay-MediumItalic.woff2 */; };
+		71C682582AFD5CCE00E42B54 /* SFProDisplay-Heavy.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C6820E2AFD5CCD00E42B54 /* SFProDisplay-Heavy.woff */; };
+		71C682592AFD5CCE00E42B54 /* SFProDisplay-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C6820F2AFD5CCD00E42B54 /* SFProDisplay-ThinItalic.ttf */; };
+		71C6825A2AFD5CCE00E42B54 /* SFProDisplay-RegularItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C682102AFD5CCD00E42B54 /* SFProDisplay-RegularItalic.eot */; };
+		71C6825B2AFD5CCE00E42B54 /* SFProDisplay-Thin.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C682112AFD5CCD00E42B54 /* SFProDisplay-Thin.woff */; };
+		71C6825C2AFD5CCE00E42B54 /* SFProDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C682122AFD5CCD00E42B54 /* SFProDisplay-Light.ttf */; };
+		71C6825D2AFD5CCE00E42B54 /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C682132AFD5CCD00E42B54 /* SFProDisplay-Regular.ttf */; };
+		71C6825E2AFD5CCE00E42B54 /* SFProDisplay-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C682142AFD5CCD00E42B54 /* SFProDisplay-BlackItalic.ttf */; };
+		71C6825F2AFD5CCE00E42B54 /* SFProDisplay-Bold.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C682152AFD5CCD00E42B54 /* SFProDisplay-Bold.eot */; };
+		71C682602AFD5CCE00E42B54 /* SFProDisplay-LightItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C682162AFD5CCD00E42B54 /* SFProDisplay-LightItalic.woff */; };
+		71C682612AFD5CCE00E42B54 /* stylesheet.css in Resources */ = {isa = PBXBuildFile; fileRef = 71C682172AFD5CCD00E42B54 /* stylesheet.css */; };
+		71C682622AFD5CCE00E42B54 /* SFProDisplay-ThinItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C682182AFD5CCD00E42B54 /* SFProDisplay-ThinItalic.woff */; };
+		71C682632AFD5CCE00E42B54 /* SFProDisplay-HeavyItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C682192AFD5CCD00E42B54 /* SFProDisplay-HeavyItalic.woff2 */; };
+		71C682642AFD5CCE00E42B54 /* SFProDisplay-LightItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C6821A2AFD5CCD00E42B54 /* SFProDisplay-LightItalic.eot */; };
+		71C682652AFD5CCE00E42B54 /* SFProDisplay-RegularItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C6821B2AFD5CCD00E42B54 /* SFProDisplay-RegularItalic.woff */; };
+		71C682662AFD5CCE00E42B54 /* SFProDisplay-HeavyItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C6821C2AFD5CCD00E42B54 /* SFProDisplay-HeavyItalic.eot */; };
+		71C682672AFD5CCE00E42B54 /* SFProDisplay-Semibold.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C6821D2AFD5CCD00E42B54 /* SFProDisplay-Semibold.eot */; };
+		71C682682AFD5CCE00E42B54 /* SFProDisplay-Heavy.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C6821E2AFD5CCD00E42B54 /* SFProDisplay-Heavy.eot */; };
+		71C682692AFD5CCE00E42B54 /* SFProDisplay-Semibold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C6821F2AFD5CCD00E42B54 /* SFProDisplay-Semibold.woff2 */; };
+		71C6826A2AFD5CCE00E42B54 /* SFProDisplay-Light.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C682202AFD5CCD00E42B54 /* SFProDisplay-Light.woff2 */; };
+		71C6826B2AFD5CCE00E42B54 /* SFProDisplay-UltralightItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C682212AFD5CCD00E42B54 /* SFProDisplay-UltralightItalic.eot */; };
+		71C6826C2AFD5CCE00E42B54 /* SFProDisplay-Thin.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C682222AFD5CCD00E42B54 /* SFProDisplay-Thin.eot */; };
+		71C6826D2AFD5CCE00E42B54 /* SFProDisplay-BlackItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C682232AFD5CCD00E42B54 /* SFProDisplay-BlackItalic.woff2 */; };
+		71C6826E2AFD5CCE00E42B54 /* SFProDisplay-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C682242AFD5CCD00E42B54 /* SFProDisplay-MediumItalic.ttf */; };
+		71C6826F2AFD5CCE00E42B54 /* SFProDisplay-BlackItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C682252AFD5CCD00E42B54 /* SFProDisplay-BlackItalic.eot */; };
+		71C682702AFD5CCE00E42B54 /* SFProDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C682262AFD5CCD00E42B54 /* SFProDisplay-Bold.ttf */; };
+		71C682712AFD5CCE00E42B54 /* SFProDisplay-Light.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C682272AFD5CCD00E42B54 /* SFProDisplay-Light.eot */; };
+		71C682722AFD5CCE00E42B54 /* SFProDisplay-Regular.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C682282AFD5CCD00E42B54 /* SFProDisplay-Regular.eot */; };
+		71C682742AFD5CCE00E42B54 /* SFProDisplay-MediumItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C6822A2AFD5CCD00E42B54 /* SFProDisplay-MediumItalic.woff */; };
+		71C682752AFD5CCE00E42B54 /* SFProDisplay-BoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C6822B2AFD5CCD00E42B54 /* SFProDisplay-BoldItalic.woff */; };
+		71C682762AFD5CCE00E42B54 /* SFProDisplay-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C6822C2AFD5CCD00E42B54 /* SFProDisplay-HeavyItalic.ttf */; };
+		71C682772AFD5CCE00E42B54 /* SFProDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C6822D2AFD5CCD00E42B54 /* SFProDisplay-Semibold.ttf */; };
+		71C682782AFD5CCE00E42B54 /* SFProDisplay-Ultralight.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C6822E2AFD5CCD00E42B54 /* SFProDisplay-Ultralight.woff */; };
+		71C682792AFD5CCE00E42B54 /* SFProDisplay-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C6822F2AFD5CCD00E42B54 /* SFProDisplay-Heavy.ttf */; };
+		71C6827A2AFD5CCE00E42B54 /* SFProDisplay-Black.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 71C682302AFD5CCD00E42B54 /* SFProDisplay-Black.woff2 */; };
+		71C6827B2AFD5CCE00E42B54 /* SFProDisplay-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C682312AFD5CCD00E42B54 /* SFProDisplay-LightItalic.ttf */; };
+		71C6827C2AFD5CCE00E42B54 /* SFProDisplay-HeavyItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C682322AFD5CCD00E42B54 /* SFProDisplay-HeavyItalic.woff */; };
+		71C6827D2AFD5CCE00E42B54 /* SFProDisplay-MediumItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 71C682332AFD5CCD00E42B54 /* SFProDisplay-MediumItalic.eot */; };
+		71C6827E2AFD5CCE00E42B54 /* SFProDisplay-Black.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C682342AFD5CCD00E42B54 /* SFProDisplay-Black.woff */; };
+		71C6827F2AFD5CCE00E42B54 /* SFProDisplay-SemiboldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 71C682352AFD5CCD00E42B54 /* SFProDisplay-SemiboldItalic.woff */; };
+		71C682802AFD5CCE00E42B54 /* SFProDisplay-UltralightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C682362AFD5CCD00E42B54 /* SFProDisplay-UltralightItalic.ttf */; };
+		71C682812AFD5CCE00E42B54 /* SFProDisplay-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C682372AFD5CCD00E42B54 /* SFProDisplay-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,44 +139,115 @@
 		71B487C22AFC0F560057480D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71B487C52AFC0F560057480D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71B487C72AFC0F560057480D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71B487D02AFC12680057480D /* extraColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extraColor.swift; sourceTree = "<group>"; };
+		71B487D02AFC12680057480D /* extraColorFontImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extraColorFontImage.swift; sourceTree = "<group>"; };
 		71B487D42AFC15BD0057480D /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		71B487D72AFC2F060057480D /* PreloaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreloaderViewController.swift; sourceTree = "<group>"; };
 		71B487DB2AFC315A0057480D /* EventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
-		71C680F72AFD561B00E42B54 /* PilatExtended-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Heavy.ttf"; sourceTree = "<group>"; };
-		71C680F82AFD561B00E42B54 /* PilatExtended-DemiBold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-DemiBold.woff2"; sourceTree = "<group>"; };
-		71C680F92AFD561B00E42B54 /* PilatExtended-Light.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Light.woff"; sourceTree = "<group>"; };
-		71C680FA2AFD561B00E42B54 /* PilatExtended-Heavy.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Heavy.woff2"; sourceTree = "<group>"; };
-		71C680FB2AFD561B00E42B54 /* PilatExtended-Light.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Light.eot"; sourceTree = "<group>"; };
-		71C680FC2AFD561B00E42B54 /* PilatExtended-Heavy.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Heavy.woff"; sourceTree = "<group>"; };
-		71C680FD2AFD561B00E42B54 /* PilatExtended-Book.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Book.woff2"; sourceTree = "<group>"; };
-		71C680FE2AFD561B00E42B54 /* PilatExtended-Heavy.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Heavy.eot"; sourceTree = "<group>"; };
-		71C680FF2AFD561B00E42B54 /* PilatExtended-Bold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Bold.woff2"; sourceTree = "<group>"; };
-		71C681002AFD561B00E42B54 /* PilatExtended-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Regular.woff2"; sourceTree = "<group>"; };
-		71C681012AFD561B00E42B54 /* PilatExtended-Thin.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Thin.woff"; sourceTree = "<group>"; };
-		71C681022AFD561B00E42B54 /* PilatExtended-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Light.ttf"; sourceTree = "<group>"; };
-		71C681032AFD561B00E42B54 /* PilatExtended-Thin.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Thin.woff2"; sourceTree = "<group>"; };
-		71C681042AFD561B00E42B54 /* PilatExtended-Book.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Book.woff"; sourceTree = "<group>"; };
-		71C681052AFD561B00E42B54 /* PilatExtended-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Black.ttf"; sourceTree = "<group>"; };
-		71C681062AFD561B00E42B54 /* PilatExtended-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Book.ttf"; sourceTree = "<group>"; };
-		71C681072AFD561B00E42B54 /* PilatExtended-DemiBold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-DemiBold.eot"; sourceTree = "<group>"; };
-		71C681082AFD561B00E42B54 /* PilatExtended-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Regular.ttf"; sourceTree = "<group>"; };
-		71C681092AFD561B00E42B54 /* PilatExtended-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Regular.woff"; sourceTree = "<group>"; };
-		71C6810A2AFD561B00E42B54 /* stylesheet.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = stylesheet.css; sourceTree = "<group>"; };
-		71C6810B2AFD561B00E42B54 /* PilatExtended-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Bold.ttf"; sourceTree = "<group>"; };
-		71C6810C2AFD561B00E42B54 /* PilatExtended-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Thin.ttf"; sourceTree = "<group>"; };
-		71C6810D2AFD561B00E42B54 /* PilatExtended-Light.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Light.woff2"; sourceTree = "<group>"; };
-		71C6810E2AFD561B00E42B54 /* PilatExtended-Black.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Black.woff"; sourceTree = "<group>"; };
-		71C6810F2AFD561B00E42B54 /* PilatExtended-Book.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Book.eot"; sourceTree = "<group>"; };
-		71C681102AFD561B00E42B54 /* PilatExtended-DemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-DemiBold.ttf"; sourceTree = "<group>"; };
-		71C681112AFD561B00E42B54 /* PilatExtended-Black.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Black.eot"; sourceTree = "<group>"; };
-		71C681122AFD561B00E42B54 /* PilatExtended-Bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Bold.woff"; sourceTree = "<group>"; };
-		71C681132AFD561B00E42B54 /* demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo.html; sourceTree = "<group>"; };
-		71C681142AFD561B00E42B54 /* PilatExtended-Bold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Bold.eot"; sourceTree = "<group>"; };
-		71C681152AFD561B00E42B54 /* PilatExtended-Regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Regular.eot"; sourceTree = "<group>"; };
-		71C681162AFD561B00E42B54 /* PilatExtended-Thin.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Thin.eot"; sourceTree = "<group>"; };
-		71C681172AFD561B00E42B54 /* PilatExtended-DemiBold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-DemiBold.woff"; sourceTree = "<group>"; };
-		71C681182AFD561B00E42B54 /* PilatExtended-Black.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Black.woff2"; sourceTree = "<group>"; };
+		71C681A92AFD5B1A00E42B54 /* PilatExtended-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Heavy.ttf"; sourceTree = "<group>"; };
+		71C681AA2AFD5B1A00E42B54 /* PilatExtended-DemiBold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-DemiBold.woff2"; sourceTree = "<group>"; };
+		71C681AB2AFD5B1A00E42B54 /* PilatExtended-Light.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Light.woff"; sourceTree = "<group>"; };
+		71C681AC2AFD5B1A00E42B54 /* PilatExtended-Heavy.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Heavy.woff2"; sourceTree = "<group>"; };
+		71C681AD2AFD5B1A00E42B54 /* PilatExtended-Light.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Light.eot"; sourceTree = "<group>"; };
+		71C681AE2AFD5B1A00E42B54 /* PilatExtended-Heavy.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Heavy.woff"; sourceTree = "<group>"; };
+		71C681AF2AFD5B1A00E42B54 /* PilatExtended-Book.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Book.woff2"; sourceTree = "<group>"; };
+		71C681B02AFD5B1A00E42B54 /* PilatExtended-Heavy.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Heavy.eot"; sourceTree = "<group>"; };
+		71C681B12AFD5B1A00E42B54 /* PilatExtended-Bold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Bold.woff2"; sourceTree = "<group>"; };
+		71C681B22AFD5B1A00E42B54 /* PilatExtended-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Regular.woff2"; sourceTree = "<group>"; };
+		71C681B32AFD5B1A00E42B54 /* PilatExtended-Thin.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Thin.woff"; sourceTree = "<group>"; };
+		71C681B42AFD5B1A00E42B54 /* PilatExtended-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Light.ttf"; sourceTree = "<group>"; };
+		71C681B52AFD5B1A00E42B54 /* PilatExtended-Thin.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Thin.woff2"; sourceTree = "<group>"; };
+		71C681B62AFD5B1A00E42B54 /* PilatExtended-Book.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Book.woff"; sourceTree = "<group>"; };
+		71C681B72AFD5B1A00E42B54 /* PilatExtended-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Black.ttf"; sourceTree = "<group>"; };
+		71C681B82AFD5B1A00E42B54 /* PilatExtended-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Book.ttf"; sourceTree = "<group>"; };
+		71C681B92AFD5B1A00E42B54 /* PilatExtended-DemiBold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-DemiBold.eot"; sourceTree = "<group>"; };
+		71C681BA2AFD5B1A00E42B54 /* PilatExtended-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Regular.ttf"; sourceTree = "<group>"; };
+		71C681BB2AFD5B1A00E42B54 /* PilatExtended-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Regular.woff"; sourceTree = "<group>"; };
+		71C681BD2AFD5B1A00E42B54 /* PilatExtended-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Bold.ttf"; sourceTree = "<group>"; };
+		71C681BE2AFD5B1A00E42B54 /* PilatExtended-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Thin.ttf"; sourceTree = "<group>"; };
+		71C681BF2AFD5B1A00E42B54 /* PilatExtended-Light.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Light.woff2"; sourceTree = "<group>"; };
+		71C681C02AFD5B1A00E42B54 /* PilatExtended-Black.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Black.woff"; sourceTree = "<group>"; };
+		71C681C12AFD5B1A00E42B54 /* PilatExtended-Book.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Book.eot"; sourceTree = "<group>"; };
+		71C681C22AFD5B1A00E42B54 /* PilatExtended-DemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-DemiBold.ttf"; sourceTree = "<group>"; };
+		71C681C32AFD5B1A00E42B54 /* PilatExtended-Black.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Black.eot"; sourceTree = "<group>"; };
+		71C681C42AFD5B1A00E42B54 /* PilatExtended-Bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Bold.woff"; sourceTree = "<group>"; };
+		71C681C62AFD5B1A00E42B54 /* PilatExtended-Bold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Bold.eot"; sourceTree = "<group>"; };
+		71C681C72AFD5B1A00E42B54 /* PilatExtended-Regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Regular.eot"; sourceTree = "<group>"; };
+		71C681C82AFD5B1A00E42B54 /* PilatExtended-Thin.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Thin.eot"; sourceTree = "<group>"; };
+		71C681C92AFD5B1A00E42B54 /* PilatExtended-DemiBold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-DemiBold.woff"; sourceTree = "<group>"; };
+		71C681CA2AFD5B1A00E42B54 /* PilatExtended-Black.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Black.woff2"; sourceTree = "<group>"; };
+		71C681EE2AFD5CCD00E42B54 /* SFProDisplay-Ultralight.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Ultralight.woff2"; sourceTree = "<group>"; };
+		71C681EF2AFD5CCD00E42B54 /* SFProDisplay-BlackItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-BlackItalic.woff"; sourceTree = "<group>"; };
+		71C681F02AFD5CCD00E42B54 /* SFProDisplay-BoldItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-BoldItalic.woff2"; sourceTree = "<group>"; };
+		71C681F12AFD5CCD00E42B54 /* SFProDisplay-SemiboldItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-SemiboldItalic.eot"; sourceTree = "<group>"; };
+		71C681F22AFD5CCD00E42B54 /* SFProDisplay-Bold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.woff2"; sourceTree = "<group>"; };
+		71C681F32AFD5CCD00E42B54 /* SFProDisplay-Medium.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Medium.woff2"; sourceTree = "<group>"; };
+		71C681F42AFD5CCD00E42B54 /* SFProDisplay-UltralightItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-UltralightItalic.woff2"; sourceTree = "<group>"; };
+		71C681F52AFD5CCD00E42B54 /* SFProDisplay-Medium.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Medium.woff"; sourceTree = "<group>"; };
+		71C681F62AFD5CCD00E42B54 /* SFProDisplay-Medium.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Medium.eot"; sourceTree = "<group>"; };
+		71C681F72AFD5CCD00E42B54 /* SFProDisplay-Black.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Black.eot"; sourceTree = "<group>"; };
+		71C681F82AFD5CCD00E42B54 /* SFProDisplay-UltralightItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-UltralightItalic.woff"; sourceTree = "<group>"; };
+		71C681F92AFD5CCD00E42B54 /* SFProDisplay-Ultralight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Ultralight.ttf"; sourceTree = "<group>"; };
+		71C681FA2AFD5CCD00E42B54 /* SFProDisplay-LightItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-LightItalic.woff2"; sourceTree = "<group>"; };
+		71C681FB2AFD5CCD00E42B54 /* SFProDisplay-BoldItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-BoldItalic.eot"; sourceTree = "<group>"; };
+		71C681FC2AFD5CCD00E42B54 /* SFProDisplay-ThinItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-ThinItalic.eot"; sourceTree = "<group>"; };
+		71C681FD2AFD5CCD00E42B54 /* SFProDisplay-SemiboldItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-SemiboldItalic.woff2"; sourceTree = "<group>"; };
+		71C681FE2AFD5CCD00E42B54 /* SFProDisplay-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-RegularItalic.ttf"; sourceTree = "<group>"; };
+		71C681FF2AFD5CCD00E42B54 /* SFProDisplay-Heavy.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Heavy.woff2"; sourceTree = "<group>"; };
+		71C682002AFD5CCD00E42B54 /* SFProDisplay-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.woff"; sourceTree = "<group>"; };
+		71C682012AFD5CCD00E42B54 /* SFProDisplay-Thin.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Thin.woff2"; sourceTree = "<group>"; };
+		71C682022AFD5CCD00E42B54 /* SFProDisplay-ThinItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-ThinItalic.woff2"; sourceTree = "<group>"; };
+		71C682032AFD5CCD00E42B54 /* SFProDisplay-Bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.woff"; sourceTree = "<group>"; };
+		71C682042AFD5CCD00E42B54 /* SFProDisplay-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		71C682052AFD5CCD00E42B54 /* SFProDisplay-RegularItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-RegularItalic.woff2"; sourceTree = "<group>"; };
+		71C682062AFD5CCD00E42B54 /* SFProDisplay-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.woff2"; sourceTree = "<group>"; };
+		71C682072AFD5CCD00E42B54 /* SFProDisplay-Light.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Light.woff"; sourceTree = "<group>"; };
+		71C682082AFD5CCD00E42B54 /* SFProDisplay-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-BoldItalic.ttf"; sourceTree = "<group>"; };
+		71C682092AFD5CCD00E42B54 /* SFProDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		71C6820A2AFD5CCD00E42B54 /* SFProDisplay-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Black.ttf"; sourceTree = "<group>"; };
+		71C6820B2AFD5CCD00E42B54 /* SFProDisplay-Ultralight.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Ultralight.eot"; sourceTree = "<group>"; };
+		71C6820C2AFD5CCD00E42B54 /* SFProDisplay-Semibold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Semibold.woff"; sourceTree = "<group>"; };
+		71C6820D2AFD5CCD00E42B54 /* SFProDisplay-MediumItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-MediumItalic.woff2"; sourceTree = "<group>"; };
+		71C6820E2AFD5CCD00E42B54 /* SFProDisplay-Heavy.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Heavy.woff"; sourceTree = "<group>"; };
+		71C6820F2AFD5CCD00E42B54 /* SFProDisplay-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-ThinItalic.ttf"; sourceTree = "<group>"; };
+		71C682102AFD5CCD00E42B54 /* SFProDisplay-RegularItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-RegularItalic.eot"; sourceTree = "<group>"; };
+		71C682112AFD5CCD00E42B54 /* SFProDisplay-Thin.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Thin.woff"; sourceTree = "<group>"; };
+		71C682122AFD5CCD00E42B54 /* SFProDisplay-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Light.ttf"; sourceTree = "<group>"; };
+		71C682132AFD5CCD00E42B54 /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		71C682142AFD5CCD00E42B54 /* SFProDisplay-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-BlackItalic.ttf"; sourceTree = "<group>"; };
+		71C682152AFD5CCD00E42B54 /* SFProDisplay-Bold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.eot"; sourceTree = "<group>"; };
+		71C682162AFD5CCD00E42B54 /* SFProDisplay-LightItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-LightItalic.woff"; sourceTree = "<group>"; };
+		71C682172AFD5CCD00E42B54 /* stylesheet.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = stylesheet.css; sourceTree = "<group>"; };
+		71C682182AFD5CCD00E42B54 /* SFProDisplay-ThinItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-ThinItalic.woff"; sourceTree = "<group>"; };
+		71C682192AFD5CCD00E42B54 /* SFProDisplay-HeavyItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-HeavyItalic.woff2"; sourceTree = "<group>"; };
+		71C6821A2AFD5CCD00E42B54 /* SFProDisplay-LightItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-LightItalic.eot"; sourceTree = "<group>"; };
+		71C6821B2AFD5CCD00E42B54 /* SFProDisplay-RegularItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-RegularItalic.woff"; sourceTree = "<group>"; };
+		71C6821C2AFD5CCD00E42B54 /* SFProDisplay-HeavyItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-HeavyItalic.eot"; sourceTree = "<group>"; };
+		71C6821D2AFD5CCD00E42B54 /* SFProDisplay-Semibold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Semibold.eot"; sourceTree = "<group>"; };
+		71C6821E2AFD5CCD00E42B54 /* SFProDisplay-Heavy.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Heavy.eot"; sourceTree = "<group>"; };
+		71C6821F2AFD5CCD00E42B54 /* SFProDisplay-Semibold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Semibold.woff2"; sourceTree = "<group>"; };
+		71C682202AFD5CCD00E42B54 /* SFProDisplay-Light.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Light.woff2"; sourceTree = "<group>"; };
+		71C682212AFD5CCD00E42B54 /* SFProDisplay-UltralightItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-UltralightItalic.eot"; sourceTree = "<group>"; };
+		71C682222AFD5CCD00E42B54 /* SFProDisplay-Thin.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Thin.eot"; sourceTree = "<group>"; };
+		71C682232AFD5CCD00E42B54 /* SFProDisplay-BlackItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-BlackItalic.woff2"; sourceTree = "<group>"; };
+		71C682242AFD5CCD00E42B54 /* SFProDisplay-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-MediumItalic.ttf"; sourceTree = "<group>"; };
+		71C682252AFD5CCD00E42B54 /* SFProDisplay-BlackItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-BlackItalic.eot"; sourceTree = "<group>"; };
+		71C682262AFD5CCD00E42B54 /* SFProDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		71C682272AFD5CCD00E42B54 /* SFProDisplay-Light.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Light.eot"; sourceTree = "<group>"; };
+		71C682282AFD5CCD00E42B54 /* SFProDisplay-Regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.eot"; sourceTree = "<group>"; };
+		71C6822A2AFD5CCD00E42B54 /* SFProDisplay-MediumItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-MediumItalic.woff"; sourceTree = "<group>"; };
+		71C6822B2AFD5CCD00E42B54 /* SFProDisplay-BoldItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-BoldItalic.woff"; sourceTree = "<group>"; };
+		71C6822C2AFD5CCD00E42B54 /* SFProDisplay-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		71C6822D2AFD5CCD00E42B54 /* SFProDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Semibold.ttf"; sourceTree = "<group>"; };
+		71C6822E2AFD5CCD00E42B54 /* SFProDisplay-Ultralight.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Ultralight.woff"; sourceTree = "<group>"; };
+		71C6822F2AFD5CCD00E42B54 /* SFProDisplay-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Heavy.ttf"; sourceTree = "<group>"; };
+		71C682302AFD5CCD00E42B54 /* SFProDisplay-Black.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Black.woff2"; sourceTree = "<group>"; };
+		71C682312AFD5CCD00E42B54 /* SFProDisplay-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-LightItalic.ttf"; sourceTree = "<group>"; };
+		71C682322AFD5CCD00E42B54 /* SFProDisplay-HeavyItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-HeavyItalic.woff"; sourceTree = "<group>"; };
+		71C682332AFD5CCD00E42B54 /* SFProDisplay-MediumItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-MediumItalic.eot"; sourceTree = "<group>"; };
+		71C682342AFD5CCD00E42B54 /* SFProDisplay-Black.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Black.woff"; sourceTree = "<group>"; };
+		71C682352AFD5CCD00E42B54 /* SFProDisplay-SemiboldItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-SemiboldItalic.woff"; sourceTree = "<group>"; };
+		71C682362AFD5CCD00E42B54 /* SFProDisplay-UltralightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-UltralightItalic.ttf"; sourceTree = "<group>"; };
+		71C682372AFD5CCD00E42B54 /* SFProDisplay-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Thin.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,14 +268,6 @@
 				71424A872AFD478F0042EC7F /* MockStructForStatistic.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		71424A892AFD515E0042EC7F /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				71C680F62AFD561B00E42B54 /* PilatExtended */,
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 		71B487AD2AFC0F520057480D = {
@@ -167,7 +301,8 @@
 		71B487CD2AFC0FFA0057480D /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				71424A892AFD515E0042EC7F /* Fonts */,
+				71C681ED2AFD5CCD00E42B54 /* SFPro */,
+				71C681A82AFD5B1A00E42B54 /* PilatExtended */,
 				71B487C22AFC0F560057480D /* Assets.xcassets */,
 				71B487C42AFC0F560057480D /* LaunchScreen.storyboard */,
 				71B487C72AFC0F560057480D /* Info.plist */,
@@ -187,7 +322,7 @@
 		71B487CF2AFC124C0057480D /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
-				71B487D02AFC12680057480D /* extraColor.swift */,
+				71B487D02AFC12680057480D /* extraColorFontImage.swift */,
 			);
 			path = Resourses;
 			sourceTree = "<group>";
@@ -237,45 +372,123 @@
 			path = "Event-Detail";
 			sourceTree = "<group>";
 		};
-		71C680F62AFD561B00E42B54 /* PilatExtended */ = {
+		71C681A82AFD5B1A00E42B54 /* PilatExtended */ = {
 			isa = PBXGroup;
 			children = (
-				71C680F72AFD561B00E42B54 /* PilatExtended-Heavy.ttf */,
-				71C680F82AFD561B00E42B54 /* PilatExtended-DemiBold.woff2 */,
-				71C680F92AFD561B00E42B54 /* PilatExtended-Light.woff */,
-				71C680FA2AFD561B00E42B54 /* PilatExtended-Heavy.woff2 */,
-				71C680FB2AFD561B00E42B54 /* PilatExtended-Light.eot */,
-				71C680FC2AFD561B00E42B54 /* PilatExtended-Heavy.woff */,
-				71C680FD2AFD561B00E42B54 /* PilatExtended-Book.woff2 */,
-				71C680FE2AFD561B00E42B54 /* PilatExtended-Heavy.eot */,
-				71C680FF2AFD561B00E42B54 /* PilatExtended-Bold.woff2 */,
-				71C681002AFD561B00E42B54 /* PilatExtended-Regular.woff2 */,
-				71C681012AFD561B00E42B54 /* PilatExtended-Thin.woff */,
-				71C681022AFD561B00E42B54 /* PilatExtended-Light.ttf */,
-				71C681032AFD561B00E42B54 /* PilatExtended-Thin.woff2 */,
-				71C681042AFD561B00E42B54 /* PilatExtended-Book.woff */,
-				71C681052AFD561B00E42B54 /* PilatExtended-Black.ttf */,
-				71C681062AFD561B00E42B54 /* PilatExtended-Book.ttf */,
-				71C681072AFD561B00E42B54 /* PilatExtended-DemiBold.eot */,
-				71C681082AFD561B00E42B54 /* PilatExtended-Regular.ttf */,
-				71C681092AFD561B00E42B54 /* PilatExtended-Regular.woff */,
-				71C6810A2AFD561B00E42B54 /* stylesheet.css */,
-				71C6810B2AFD561B00E42B54 /* PilatExtended-Bold.ttf */,
-				71C6810C2AFD561B00E42B54 /* PilatExtended-Thin.ttf */,
-				71C6810D2AFD561B00E42B54 /* PilatExtended-Light.woff2 */,
-				71C6810E2AFD561B00E42B54 /* PilatExtended-Black.woff */,
-				71C6810F2AFD561B00E42B54 /* PilatExtended-Book.eot */,
-				71C681102AFD561B00E42B54 /* PilatExtended-DemiBold.ttf */,
-				71C681112AFD561B00E42B54 /* PilatExtended-Black.eot */,
-				71C681122AFD561B00E42B54 /* PilatExtended-Bold.woff */,
-				71C681132AFD561B00E42B54 /* demo.html */,
-				71C681142AFD561B00E42B54 /* PilatExtended-Bold.eot */,
-				71C681152AFD561B00E42B54 /* PilatExtended-Regular.eot */,
-				71C681162AFD561B00E42B54 /* PilatExtended-Thin.eot */,
-				71C681172AFD561B00E42B54 /* PilatExtended-DemiBold.woff */,
-				71C681182AFD561B00E42B54 /* PilatExtended-Black.woff2 */,
+				71C681A92AFD5B1A00E42B54 /* PilatExtended-Heavy.ttf */,
+				71C681AA2AFD5B1A00E42B54 /* PilatExtended-DemiBold.woff2 */,
+				71C681AB2AFD5B1A00E42B54 /* PilatExtended-Light.woff */,
+				71C681AC2AFD5B1A00E42B54 /* PilatExtended-Heavy.woff2 */,
+				71C681AD2AFD5B1A00E42B54 /* PilatExtended-Light.eot */,
+				71C681AE2AFD5B1A00E42B54 /* PilatExtended-Heavy.woff */,
+				71C681AF2AFD5B1A00E42B54 /* PilatExtended-Book.woff2 */,
+				71C681B02AFD5B1A00E42B54 /* PilatExtended-Heavy.eot */,
+				71C681B12AFD5B1A00E42B54 /* PilatExtended-Bold.woff2 */,
+				71C681B22AFD5B1A00E42B54 /* PilatExtended-Regular.woff2 */,
+				71C681B32AFD5B1A00E42B54 /* PilatExtended-Thin.woff */,
+				71C681B42AFD5B1A00E42B54 /* PilatExtended-Light.ttf */,
+				71C681B52AFD5B1A00E42B54 /* PilatExtended-Thin.woff2 */,
+				71C681B62AFD5B1A00E42B54 /* PilatExtended-Book.woff */,
+				71C681B72AFD5B1A00E42B54 /* PilatExtended-Black.ttf */,
+				71C681B82AFD5B1A00E42B54 /* PilatExtended-Book.ttf */,
+				71C681B92AFD5B1A00E42B54 /* PilatExtended-DemiBold.eot */,
+				71C681BA2AFD5B1A00E42B54 /* PilatExtended-Regular.ttf */,
+				71C681BB2AFD5B1A00E42B54 /* PilatExtended-Regular.woff */,
+				71C681BD2AFD5B1A00E42B54 /* PilatExtended-Bold.ttf */,
+				71C681BE2AFD5B1A00E42B54 /* PilatExtended-Thin.ttf */,
+				71C681BF2AFD5B1A00E42B54 /* PilatExtended-Light.woff2 */,
+				71C681C02AFD5B1A00E42B54 /* PilatExtended-Black.woff */,
+				71C681C12AFD5B1A00E42B54 /* PilatExtended-Book.eot */,
+				71C681C22AFD5B1A00E42B54 /* PilatExtended-DemiBold.ttf */,
+				71C681C32AFD5B1A00E42B54 /* PilatExtended-Black.eot */,
+				71C681C42AFD5B1A00E42B54 /* PilatExtended-Bold.woff */,
+				71C681C62AFD5B1A00E42B54 /* PilatExtended-Bold.eot */,
+				71C681C72AFD5B1A00E42B54 /* PilatExtended-Regular.eot */,
+				71C681C82AFD5B1A00E42B54 /* PilatExtended-Thin.eot */,
+				71C681C92AFD5B1A00E42B54 /* PilatExtended-DemiBold.woff */,
+				71C681CA2AFD5B1A00E42B54 /* PilatExtended-Black.woff2 */,
 			);
 			path = PilatExtended;
+			sourceTree = "<group>";
+		};
+		71C681ED2AFD5CCD00E42B54 /* SFPro */ = {
+			isa = PBXGroup;
+			children = (
+				71C681EE2AFD5CCD00E42B54 /* SFProDisplay-Ultralight.woff2 */,
+				71C681EF2AFD5CCD00E42B54 /* SFProDisplay-BlackItalic.woff */,
+				71C681F02AFD5CCD00E42B54 /* SFProDisplay-BoldItalic.woff2 */,
+				71C681F12AFD5CCD00E42B54 /* SFProDisplay-SemiboldItalic.eot */,
+				71C681F22AFD5CCD00E42B54 /* SFProDisplay-Bold.woff2 */,
+				71C681F32AFD5CCD00E42B54 /* SFProDisplay-Medium.woff2 */,
+				71C681F42AFD5CCD00E42B54 /* SFProDisplay-UltralightItalic.woff2 */,
+				71C681F52AFD5CCD00E42B54 /* SFProDisplay-Medium.woff */,
+				71C681F62AFD5CCD00E42B54 /* SFProDisplay-Medium.eot */,
+				71C681F72AFD5CCD00E42B54 /* SFProDisplay-Black.eot */,
+				71C681F82AFD5CCD00E42B54 /* SFProDisplay-UltralightItalic.woff */,
+				71C681F92AFD5CCD00E42B54 /* SFProDisplay-Ultralight.ttf */,
+				71C681FA2AFD5CCD00E42B54 /* SFProDisplay-LightItalic.woff2 */,
+				71C681FB2AFD5CCD00E42B54 /* SFProDisplay-BoldItalic.eot */,
+				71C681FC2AFD5CCD00E42B54 /* SFProDisplay-ThinItalic.eot */,
+				71C681FD2AFD5CCD00E42B54 /* SFProDisplay-SemiboldItalic.woff2 */,
+				71C681FE2AFD5CCD00E42B54 /* SFProDisplay-RegularItalic.ttf */,
+				71C681FF2AFD5CCD00E42B54 /* SFProDisplay-Heavy.woff2 */,
+				71C682002AFD5CCD00E42B54 /* SFProDisplay-Regular.woff */,
+				71C682012AFD5CCD00E42B54 /* SFProDisplay-Thin.woff2 */,
+				71C682022AFD5CCD00E42B54 /* SFProDisplay-ThinItalic.woff2 */,
+				71C682032AFD5CCD00E42B54 /* SFProDisplay-Bold.woff */,
+				71C682042AFD5CCD00E42B54 /* SFProDisplay-SemiboldItalic.ttf */,
+				71C682052AFD5CCD00E42B54 /* SFProDisplay-RegularItalic.woff2 */,
+				71C682062AFD5CCD00E42B54 /* SFProDisplay-Regular.woff2 */,
+				71C682072AFD5CCD00E42B54 /* SFProDisplay-Light.woff */,
+				71C682082AFD5CCD00E42B54 /* SFProDisplay-BoldItalic.ttf */,
+				71C682092AFD5CCD00E42B54 /* SFProDisplay-Medium.ttf */,
+				71C6820A2AFD5CCD00E42B54 /* SFProDisplay-Black.ttf */,
+				71C6820B2AFD5CCD00E42B54 /* SFProDisplay-Ultralight.eot */,
+				71C6820C2AFD5CCD00E42B54 /* SFProDisplay-Semibold.woff */,
+				71C6820D2AFD5CCD00E42B54 /* SFProDisplay-MediumItalic.woff2 */,
+				71C6820E2AFD5CCD00E42B54 /* SFProDisplay-Heavy.woff */,
+				71C6820F2AFD5CCD00E42B54 /* SFProDisplay-ThinItalic.ttf */,
+				71C682102AFD5CCD00E42B54 /* SFProDisplay-RegularItalic.eot */,
+				71C682112AFD5CCD00E42B54 /* SFProDisplay-Thin.woff */,
+				71C682122AFD5CCD00E42B54 /* SFProDisplay-Light.ttf */,
+				71C682132AFD5CCD00E42B54 /* SFProDisplay-Regular.ttf */,
+				71C682142AFD5CCD00E42B54 /* SFProDisplay-BlackItalic.ttf */,
+				71C682152AFD5CCD00E42B54 /* SFProDisplay-Bold.eot */,
+				71C682162AFD5CCD00E42B54 /* SFProDisplay-LightItalic.woff */,
+				71C682172AFD5CCD00E42B54 /* stylesheet.css */,
+				71C682182AFD5CCD00E42B54 /* SFProDisplay-ThinItalic.woff */,
+				71C682192AFD5CCD00E42B54 /* SFProDisplay-HeavyItalic.woff2 */,
+				71C6821A2AFD5CCD00E42B54 /* SFProDisplay-LightItalic.eot */,
+				71C6821B2AFD5CCD00E42B54 /* SFProDisplay-RegularItalic.woff */,
+				71C6821C2AFD5CCD00E42B54 /* SFProDisplay-HeavyItalic.eot */,
+				71C6821D2AFD5CCD00E42B54 /* SFProDisplay-Semibold.eot */,
+				71C6821E2AFD5CCD00E42B54 /* SFProDisplay-Heavy.eot */,
+				71C6821F2AFD5CCD00E42B54 /* SFProDisplay-Semibold.woff2 */,
+				71C682202AFD5CCD00E42B54 /* SFProDisplay-Light.woff2 */,
+				71C682212AFD5CCD00E42B54 /* SFProDisplay-UltralightItalic.eot */,
+				71C682222AFD5CCD00E42B54 /* SFProDisplay-Thin.eot */,
+				71C682232AFD5CCD00E42B54 /* SFProDisplay-BlackItalic.woff2 */,
+				71C682242AFD5CCD00E42B54 /* SFProDisplay-MediumItalic.ttf */,
+				71C682252AFD5CCD00E42B54 /* SFProDisplay-BlackItalic.eot */,
+				71C682262AFD5CCD00E42B54 /* SFProDisplay-Bold.ttf */,
+				71C682272AFD5CCD00E42B54 /* SFProDisplay-Light.eot */,
+				71C682282AFD5CCD00E42B54 /* SFProDisplay-Regular.eot */,
+				71C6822A2AFD5CCD00E42B54 /* SFProDisplay-MediumItalic.woff */,
+				71C6822B2AFD5CCD00E42B54 /* SFProDisplay-BoldItalic.woff */,
+				71C6822C2AFD5CCD00E42B54 /* SFProDisplay-HeavyItalic.ttf */,
+				71C6822D2AFD5CCD00E42B54 /* SFProDisplay-Semibold.ttf */,
+				71C6822E2AFD5CCD00E42B54 /* SFProDisplay-Ultralight.woff */,
+				71C6822F2AFD5CCD00E42B54 /* SFProDisplay-Heavy.ttf */,
+				71C682302AFD5CCD00E42B54 /* SFProDisplay-Black.woff2 */,
+				71C682312AFD5CCD00E42B54 /* SFProDisplay-LightItalic.ttf */,
+				71C682322AFD5CCD00E42B54 /* SFProDisplay-HeavyItalic.woff */,
+				71C682332AFD5CCD00E42B54 /* SFProDisplay-MediumItalic.eot */,
+				71C682342AFD5CCD00E42B54 /* SFProDisplay-Black.woff */,
+				71C682352AFD5CCD00E42B54 /* SFProDisplay-SemiboldItalic.woff */,
+				71C682362AFD5CCD00E42B54 /* SFProDisplay-UltralightItalic.ttf */,
+				71C682372AFD5CCD00E42B54 /* SFProDisplay-Thin.ttf */,
+			);
+			path = SFPro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,42 +549,113 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71C681242AFD561C00E42B54 /* PilatExtended-Light.ttf in Resources */,
-				71C681302AFD561C00E42B54 /* PilatExtended-Black.woff in Resources */,
-				71C6812C2AFD561C00E42B54 /* stylesheet.css in Resources */,
-				71C681382AFD561C00E42B54 /* PilatExtended-Thin.eot in Resources */,
-				71C6811C2AFD561B00E42B54 /* PilatExtended-Heavy.woff2 in Resources */,
-				71C681192AFD561B00E42B54 /* PilatExtended-Heavy.ttf in Resources */,
-				71C681372AFD561C00E42B54 /* PilatExtended-Regular.eot in Resources */,
-				71C681262AFD561C00E42B54 /* PilatExtended-Book.woff in Resources */,
-				71C6812F2AFD561C00E42B54 /* PilatExtended-Light.woff2 in Resources */,
+				71C6827E2AFD5CCE00E42B54 /* SFProDisplay-Black.woff in Resources */,
+				71C682762AFD5CCE00E42B54 /* SFProDisplay-HeavyItalic.ttf in Resources */,
+				71C682532AFD5CCE00E42B54 /* SFProDisplay-Medium.ttf in Resources */,
+				71C682462AFD5CCE00E42B54 /* SFProDisplay-ThinItalic.eot in Resources */,
+				71C682512AFD5CCE00E42B54 /* SFProDisplay-Light.woff in Resources */,
+				71C6827D2AFD5CCE00E42B54 /* SFProDisplay-MediumItalic.eot in Resources */,
+				71C6824F2AFD5CCE00E42B54 /* SFProDisplay-RegularItalic.woff2 in Resources */,
+				71C6825C2AFD5CCE00E42B54 /* SFProDisplay-Light.ttf in Resources */,
+				71C6824D2AFD5CCE00E42B54 /* SFProDisplay-Bold.woff in Resources */,
 				71B487C62AFC0F560057480D /* LaunchScreen.storyboard in Resources */,
-				71C681342AFD561C00E42B54 /* PilatExtended-Bold.woff in Resources */,
-				71C681392AFD561C00E42B54 /* PilatExtended-DemiBold.woff in Resources */,
-				71C681322AFD561C00E42B54 /* PilatExtended-DemiBold.ttf in Resources */,
-				71C681252AFD561C00E42B54 /* PilatExtended-Thin.woff2 in Resources */,
-				71C6812E2AFD561C00E42B54 /* PilatExtended-Thin.ttf in Resources */,
-				71C681312AFD561C00E42B54 /* PilatExtended-Book.eot in Resources */,
-				71C681282AFD561C00E42B54 /* PilatExtended-Book.ttf in Resources */,
-				71C681232AFD561C00E42B54 /* PilatExtended-Thin.woff in Resources */,
-				71C6813A2AFD561C00E42B54 /* PilatExtended-Black.woff2 in Resources */,
-				71C6811A2AFD561B00E42B54 /* PilatExtended-DemiBold.woff2 in Resources */,
-				71C681352AFD561C00E42B54 /* demo.html in Resources */,
-				71C681362AFD561C00E42B54 /* PilatExtended-Bold.eot in Resources */,
-				71C681332AFD561C00E42B54 /* PilatExtended-Black.eot in Resources */,
-				71C6812B2AFD561C00E42B54 /* PilatExtended-Regular.woff in Resources */,
-				71C6811D2AFD561B00E42B54 /* PilatExtended-Light.eot in Resources */,
-				71C6811B2AFD561B00E42B54 /* PilatExtended-Light.woff in Resources */,
-				71C6811E2AFD561B00E42B54 /* PilatExtended-Heavy.woff in Resources */,
-				71C681202AFD561C00E42B54 /* PilatExtended-Heavy.eot in Resources */,
+				71C681EB2AFD5B1A00E42B54 /* PilatExtended-DemiBold.woff in Resources */,
+				71C6827B2AFD5CCE00E42B54 /* SFProDisplay-LightItalic.ttf in Resources */,
+				71C682442AFD5CCE00E42B54 /* SFProDisplay-LightItalic.woff2 in Resources */,
+				71C682432AFD5CCE00E42B54 /* SFProDisplay-Ultralight.ttf in Resources */,
+				71C682752AFD5CCE00E42B54 /* SFProDisplay-BoldItalic.woff in Resources */,
+				71C681EC2AFD5B1A00E42B54 /* PilatExtended-Black.woff2 in Resources */,
+				71C682402AFD5CCE00E42B54 /* SFProDisplay-Medium.eot in Resources */,
+				71C681CD2AFD5B1A00E42B54 /* PilatExtended-Light.woff in Resources */,
+				71C682542AFD5CCE00E42B54 /* SFProDisplay-Black.ttf in Resources */,
+				71C682652AFD5CCE00E42B54 /* SFProDisplay-RegularItalic.woff in Resources */,
+				71C682712AFD5CCE00E42B54 /* SFProDisplay-Light.eot in Resources */,
+				71C682632AFD5CCE00E42B54 /* SFProDisplay-HeavyItalic.woff2 in Resources */,
+				71C681E52AFD5B1A00E42B54 /* PilatExtended-Black.eot in Resources */,
+				71C6825F2AFD5CCE00E42B54 /* SFProDisplay-Bold.eot in Resources */,
+				71C681E82AFD5B1A00E42B54 /* PilatExtended-Bold.eot in Resources */,
+				71C682802AFD5CCE00E42B54 /* SFProDisplay-UltralightItalic.ttf in Resources */,
+				71C681D22AFD5B1A00E42B54 /* PilatExtended-Heavy.eot in Resources */,
+				71C681E32AFD5B1A00E42B54 /* PilatExtended-Book.eot in Resources */,
+				71C6827C2AFD5CCE00E42B54 /* SFProDisplay-HeavyItalic.woff in Resources */,
+				71C681DC2AFD5B1A00E42B54 /* PilatExtended-Regular.ttf in Resources */,
+				71C682642AFD5CCE00E42B54 /* SFProDisplay-LightItalic.eot in Resources */,
+				71C681E92AFD5B1A00E42B54 /* PilatExtended-Regular.eot in Resources */,
+				71C6827A2AFD5CCE00E42B54 /* SFProDisplay-Black.woff2 in Resources */,
+				71C6826E2AFD5CCE00E42B54 /* SFProDisplay-MediumItalic.ttf in Resources */,
+				71C682612AFD5CCE00E42B54 /* stylesheet.css in Resources */,
+				71C6823E2AFD5CCE00E42B54 /* SFProDisplay-UltralightItalic.woff2 in Resources */,
+				71C6824B2AFD5CCE00E42B54 /* SFProDisplay-Thin.woff2 in Resources */,
+				71C682772AFD5CCE00E42B54 /* SFProDisplay-Semibold.ttf in Resources */,
+				71C681D42AFD5B1A00E42B54 /* PilatExtended-Regular.woff2 in Resources */,
+				71C682422AFD5CCE00E42B54 /* SFProDisplay-UltralightItalic.woff in Resources */,
+				71C681DF2AFD5B1A00E42B54 /* PilatExtended-Bold.ttf in Resources */,
 				71B487C32AFC0F560057480D /* Assets.xcassets in Resources */,
-				71C681222AFD561C00E42B54 /* PilatExtended-Regular.woff2 in Resources */,
-				71C681292AFD561C00E42B54 /* PilatExtended-DemiBold.eot in Resources */,
-				71C6812D2AFD561C00E42B54 /* PilatExtended-Bold.ttf in Resources */,
-				71C6811F2AFD561B00E42B54 /* PilatExtended-Book.woff2 in Resources */,
-				71C6812A2AFD561C00E42B54 /* PilatExtended-Regular.ttf in Resources */,
-				71C681272AFD561C00E42B54 /* PilatExtended-Black.ttf in Resources */,
-				71C681212AFD561C00E42B54 /* PilatExtended-Bold.woff2 in Resources */,
+				71C6826F2AFD5CCE00E42B54 /* SFProDisplay-BlackItalic.eot in Resources */,
+				71C682742AFD5CCE00E42B54 /* SFProDisplay-MediumItalic.woff in Resources */,
+				71C6824A2AFD5CCE00E42B54 /* SFProDisplay-Regular.woff in Resources */,
+				71C682782AFD5CCE00E42B54 /* SFProDisplay-Ultralight.woff in Resources */,
+				71C682382AFD5CCE00E42B54 /* SFProDisplay-Ultralight.woff2 in Resources */,
+				71C6827F2AFD5CCE00E42B54 /* SFProDisplay-SemiboldItalic.woff in Resources */,
+				71C682682AFD5CCE00E42B54 /* SFProDisplay-Heavy.eot in Resources */,
+				71C681DA2AFD5B1A00E42B54 /* PilatExtended-Book.ttf in Resources */,
+				71C682502AFD5CCE00E42B54 /* SFProDisplay-Regular.woff2 in Resources */,
+				71C6826B2AFD5CCE00E42B54 /* SFProDisplay-UltralightItalic.eot in Resources */,
+				71C681DB2AFD5B1A00E42B54 /* PilatExtended-DemiBold.eot in Resources */,
+				71C682492AFD5CCE00E42B54 /* SFProDisplay-Heavy.woff2 in Resources */,
+				71C681D12AFD5B1A00E42B54 /* PilatExtended-Book.woff2 in Resources */,
+				71C681D32AFD5B1A00E42B54 /* PilatExtended-Bold.woff2 in Resources */,
+				71C681E62AFD5B1A00E42B54 /* PilatExtended-Bold.woff in Resources */,
+				71C682662AFD5CCE00E42B54 /* SFProDisplay-HeavyItalic.eot in Resources */,
+				71C682582AFD5CCE00E42B54 /* SFProDisplay-Heavy.woff in Resources */,
+				71C681CC2AFD5B1A00E42B54 /* PilatExtended-DemiBold.woff2 in Resources */,
+				71C6823A2AFD5CCE00E42B54 /* SFProDisplay-BoldItalic.woff2 in Resources */,
+				71C682592AFD5CCE00E42B54 /* SFProDisplay-ThinItalic.ttf in Resources */,
+				71C682482AFD5CCE00E42B54 /* SFProDisplay-RegularItalic.ttf in Resources */,
+				71C681E22AFD5B1A00E42B54 /* PilatExtended-Black.woff in Resources */,
+				71C682522AFD5CCE00E42B54 /* SFProDisplay-BoldItalic.ttf in Resources */,
+				71C682412AFD5CCE00E42B54 /* SFProDisplay-Black.eot in Resources */,
+				71C681E02AFD5B1A00E42B54 /* PilatExtended-Thin.ttf in Resources */,
+				71C681E12AFD5B1A00E42B54 /* PilatExtended-Light.woff2 in Resources */,
+				71C682812AFD5CCE00E42B54 /* SFProDisplay-Thin.ttf in Resources */,
+				71C6825D2AFD5CCE00E42B54 /* SFProDisplay-Regular.ttf in Resources */,
+				71C681D52AFD5B1A00E42B54 /* PilatExtended-Thin.woff in Resources */,
+				71C682672AFD5CCE00E42B54 /* SFProDisplay-Semibold.eot in Resources */,
+				71C681D62AFD5B1A00E42B54 /* PilatExtended-Light.ttf in Resources */,
+				71C6826C2AFD5CCE00E42B54 /* SFProDisplay-Thin.eot in Resources */,
+				71C682392AFD5CCE00E42B54 /* SFProDisplay-BlackItalic.woff in Resources */,
+				71C682692AFD5CCE00E42B54 /* SFProDisplay-Semibold.woff2 in Resources */,
+				71C681D82AFD5B1A00E42B54 /* PilatExtended-Book.woff in Resources */,
+				71C682722AFD5CCE00E42B54 /* SFProDisplay-Regular.eot in Resources */,
+				71C681CF2AFD5B1A00E42B54 /* PilatExtended-Light.eot in Resources */,
+				71C6824C2AFD5CCE00E42B54 /* SFProDisplay-ThinItalic.woff2 in Resources */,
+				71C681D92AFD5B1A00E42B54 /* PilatExtended-Black.ttf in Resources */,
+				71C681D02AFD5B1A00E42B54 /* PilatExtended-Heavy.woff in Resources */,
+				71C681D72AFD5B1A00E42B54 /* PilatExtended-Thin.woff2 in Resources */,
+				71C681CE2AFD5B1A00E42B54 /* PilatExtended-Heavy.woff2 in Resources */,
+				71C6823C2AFD5CCE00E42B54 /* SFProDisplay-Bold.woff2 in Resources */,
+				71C682562AFD5CCE00E42B54 /* SFProDisplay-Semibold.woff in Resources */,
+				71C681CB2AFD5B1A00E42B54 /* PilatExtended-Heavy.ttf in Resources */,
+				71C682452AFD5CCE00E42B54 /* SFProDisplay-BoldItalic.eot in Resources */,
+				71C6823D2AFD5CCE00E42B54 /* SFProDisplay-Medium.woff2 in Resources */,
+				71C6825A2AFD5CCE00E42B54 /* SFProDisplay-RegularItalic.eot in Resources */,
+				71C681E42AFD5B1A00E42B54 /* PilatExtended-DemiBold.ttf in Resources */,
+				71C681DD2AFD5B1A00E42B54 /* PilatExtended-Regular.woff in Resources */,
+				71C6825E2AFD5CCE00E42B54 /* SFProDisplay-BlackItalic.ttf in Resources */,
+				71C682792AFD5CCE00E42B54 /* SFProDisplay-Heavy.ttf in Resources */,
+				71C681EA2AFD5B1A00E42B54 /* PilatExtended-Thin.eot in Resources */,
+				71C6823F2AFD5CCE00E42B54 /* SFProDisplay-Medium.woff in Resources */,
+				71C6826D2AFD5CCE00E42B54 /* SFProDisplay-BlackItalic.woff2 in Resources */,
+				71C6823B2AFD5CCE00E42B54 /* SFProDisplay-SemiboldItalic.eot in Resources */,
+				71C6824E2AFD5CCE00E42B54 /* SFProDisplay-SemiboldItalic.ttf in Resources */,
+				71C682622AFD5CCE00E42B54 /* SFProDisplay-ThinItalic.woff in Resources */,
+				71C682572AFD5CCE00E42B54 /* SFProDisplay-MediumItalic.woff2 in Resources */,
+				71C682702AFD5CCE00E42B54 /* SFProDisplay-Bold.ttf in Resources */,
+				71C682602AFD5CCE00E42B54 /* SFProDisplay-LightItalic.woff in Resources */,
+				71C682552AFD5CCE00E42B54 /* SFProDisplay-Ultralight.eot in Resources */,
+				71C6825B2AFD5CCE00E42B54 /* SFProDisplay-Thin.woff in Resources */,
+				71C682472AFD5CCE00E42B54 /* SFProDisplay-SemiboldItalic.woff2 in Resources */,
+				71C6826A2AFD5CCE00E42B54 /* SFProDisplay-Light.woff2 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +670,7 @@
 				71B487BE2AFC0F520057480D /* MainViewController.swift in Sources */,
 				71B487BA2AFC0F520057480D /* AppDelegate.swift in Sources */,
 				71B487D52AFC15BD0057480D /* MainCollectionViewCell.swift in Sources */,
-				71B487D12AFC12680057480D /* extraColor.swift in Sources */,
+				71B487D12AFC12680057480D /* extraColorFontImage.swift in Sources */,
 				71B487DC2AFC315A0057480D /* EventDetailViewController.swift in Sources */,
 				71424A832AFD3CD10042EC7F /* StatisticTableViewCell.swift in Sources */,
 				71424A882AFD478F0042EC7F /* MockStructForStatistic.swift in Sources */,

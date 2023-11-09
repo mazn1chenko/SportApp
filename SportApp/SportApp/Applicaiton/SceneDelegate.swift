@@ -17,9 +17,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let window = UIWindow(windowScene: windowScene)
         
-        //window.rootViewController = PreloaderViewController()
         window.rootViewController = UINavigationController(rootViewController: MainViewController())
-                
+        
         self.window = window
         
         window.makeKeyAndVisible()

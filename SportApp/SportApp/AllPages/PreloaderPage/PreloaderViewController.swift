@@ -15,6 +15,7 @@ final class PreloaderViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = Resourses.Colors.backgroundColor
+        navigationItem.hidesBackButton = true
         
         setupViews()
         setupLayouts()
@@ -46,6 +47,8 @@ final class PreloaderViewController: UIViewController {
     @objc func stopLoading() {
         activityIndicator.stopAnimating()
         activityIndicator.removeFromSuperview()
+        navigationController?.popViewController(animated: true)
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {

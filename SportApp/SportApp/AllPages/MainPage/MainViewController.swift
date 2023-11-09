@@ -27,14 +27,10 @@ final class MainViewController: UIViewController {
 
         view.backgroundColor = Resourses.Colors.backgroundColor
         
+        navigationController?.pushViewController(PreloaderViewController(), animated: false)
+        
         setupViews()
         setupLayouts()
-        
-        if Resourses.Fonts.pilatExtendedFontBlack != nil {
-            print("Шрифт успешно загружен!")
-        } else {
-            print("Ошибка при загрузке шрифта.")
-        }
         
     }
     
@@ -44,7 +40,7 @@ final class MainViewController: UIViewController {
         
         headerOfTableLabel.translatesAutoresizingMaskIntoConstraints = false
         headerOfTableLabel.text = "ALL EVENTS"
-        headerOfTableLabel.font = UIFont(name: "PilatExtended-Light", size: 22)
+        headerOfTableLabel.font = Resourses.Fonts.pilatExtendedBlack
         headerOfTableLabel.textColor = .white
         headerOfTableLabel.textAlignment = .left
         
@@ -69,7 +65,7 @@ final class MainViewController: UIViewController {
             headerOfTableLabel.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: constantLineIndents),
             headerOfTableLabel.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -constantLineIndents),
             
-            mainColectionView.topAnchor.constraint(equalTo: headerOfTableLabel.bottomAnchor, constant: constantLineIndents),
+            mainColectionView.topAnchor.constraint(equalTo: headerOfTableLabel.bottomAnchor, constant: 2*constantLineIndents),
             mainColectionView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: constantLineIndents),
             mainColectionView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -constantLineIndents),
             mainColectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor)

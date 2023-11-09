@@ -38,6 +38,7 @@ class StatisticTableViewCell: UITableViewCell {
         secondNumberOfCell.text = "second"
         
         nameOftypeCell.translatesAutoresizingMaskIntoConstraints = false
+        nameOftypeCell.textColor = Resourses.Colors.dateOfMatch
         nameOftypeCell.text = "Type"
         
         

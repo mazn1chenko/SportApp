@@ -40,6 +40,10 @@ final class MainCollectionViewCell: UICollectionViewCell {
         
         backgroundColor = Resourses.Colors.backgroundColorOfCollectionViewCell
         
+        layer.borderWidth = 1.0
+        layer.borderColor = Resourses.Colors.borderOfCellOnEventDetail.cgColor
+
+        
         setupViews()
         setupLayouts()
     }
@@ -61,7 +65,7 @@ final class MainCollectionViewCell: UICollectionViewCell {
         
         timeOfMatchOrScoreInLiveLabel.text = "12:00"
         timeOfMatchOrScoreInLiveLabel.textColor = .white
-        timeOfMatchOrScoreInLiveLabel.font = .boldSystemFont(ofSize: 24)
+        timeOfMatchOrScoreInLiveLabel.font = Resourses.Fonts.pilatExtendedBlack
         timeOfMatchOrScoreInLiveLabel.textAlignment = .center
         
         
@@ -71,8 +75,16 @@ final class MainCollectionViewCell: UICollectionViewCell {
         footballDevisionLabel.font = .systemFont(ofSize: 14)
         
         dateOfMatchLabel.translatesAutoresizingMaskIntoConstraints = false
-        dateOfMatchLabel.text = "8 july, 18:00"
-        dateOfMatchLabel.textColor = .white
+        let dateOfMatch = "8 july,"
+        let timeOfMatch = " 18:00"
+
+        let attributedText = NSMutableAttributedString(string: dateOfMatch + timeOfMatch)
+
+        attributedText.addAttribute(.foregroundColor, value: Resourses.Colors.dateOfMatch, range: NSRange(location: 0, length: dateOfMatch.count))
+
+        attributedText.addAttribute(.foregroundColor, value: UIColor.white, range: NSRange(location: dateOfMatch.count, length: timeOfMatch.count))
+
+        dateOfMatchLabel.attributedText = attributedText
         dateOfMatchLabel.font = .systemFont(ofSize: 14)
         
         //MARK: firstTeamStackView
@@ -83,9 +95,9 @@ final class MainCollectionViewCell: UICollectionViewCell {
         
         nameOfFirstTeamLabel.text = "Royal Phoenix FC"
         nameOfFirstTeamLabel.textAlignment = .center
-        nameOfFirstTeamLabel.font = .boldSystemFont(ofSize: 12)
+        nameOfFirstTeamLabel.font = Resourses.Fonts.SFProDisplaySemiboldItalicForNameOfTeamOnMainPage
 
-        iconOfFirstTeamImage.image = UIImage(named: "image")
+        iconOfFirstTeamImage.image = Resourses.Image.imageOfTeam
         iconOfFirstTeamImage.contentMode = .scaleAspectFit
 
         
@@ -97,9 +109,9 @@ final class MainCollectionViewCell: UICollectionViewCell {
         
         nameOfSecondTeamLabel.text = "Royal Phoenix FC"
         nameOfSecondTeamLabel.textAlignment = .center
-        nameOfSecondTeamLabel.font = .boldSystemFont(ofSize: 12)
+        nameOfSecondTeamLabel.font = Resourses.Fonts.SFProDisplaySemiboldItalicForNameOfTeamOnMainPage
         
-        iconOfSecondTeamImage.image = UIImage(named: "image")
+        iconOfSecondTeamImage.image = Resourses.Image.imageOfTeam
         iconOfSecondTeamImage.contentMode = .scaleAspectFit
 
         

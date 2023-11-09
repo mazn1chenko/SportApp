@@ -31,6 +31,7 @@ final class H2HCollectionViewCell: UICollectionViewCell {
         
         setupViews()
         setupLayouts()
+        
     }
     
     required init?(coder: NSCoder) {
